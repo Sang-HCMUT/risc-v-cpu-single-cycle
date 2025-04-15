@@ -1,4 +1,4 @@
-🧠 RISC-V 32-bit Single-Cycle CPU
+🧠 **RISC-V 32-bit Single-Cycle CPU**
 
 This project implements a simple 32-bit RISC-V CPU based on the RV32I instruction set architecture using a single-cycle datapath. Designed and simulated using SystemVerilog, the CPU is synthesized and tested on an FPGA platform.
 
@@ -16,6 +16,8 @@ This project implements a simple 32-bit RISC-V CPU based on the RV32I instructio
 ---
 
 📁 Project Structure
+
+
 riscv-cpu-single-cycle/
 ├── src/        # SystemVerilog source files
 ├── testbench/  # Testbench files for simulation
