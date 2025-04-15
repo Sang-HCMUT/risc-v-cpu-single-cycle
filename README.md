@@ -17,18 +17,18 @@ This project implements a simple 32-bit RISC-V CPU based on the RV32I instructio
 
 📁 Project Structure
 riscv-cpu-single-cycle/
-├── src/                 # SystemVerilog source files
-├── testbench/           # Testbench files for simulation
-├── scripts/             # Simulation & synthesis scripts
-├── docs/                # Design documentation and block diagrams
-└── README.md            # Project descriptionn
+├── src/        # SystemVerilog source files
+├── testbench/  # Testbench files for simulation
+├── scripts/    # Simulation & synthesis scripts
+├── docs/       # Design documentation and block diagrams
+└── README.md   # Project descriptionn
 
 ---
 
 ⚙️ How to Run
 
 🔧 1. Simulation
-# Example with Icarus Verilog (or use your preferred simulator)
+Example with Icarus Verilog (or use your preferred simulator)
 iverilog -o cpu_tb testbench/cpu_tb.v src/*.sv
 vvp cpu_tb
 
