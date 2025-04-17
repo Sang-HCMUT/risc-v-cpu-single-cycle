@@ -18,11 +18,16 @@ This project implements a simple 32-bit RISC-V CPU based on the RV32I instructio
 📁 Project Structure
 
 
-riscv-cpu-single-cycle/
+riscv-cpu-single-cycle
+
 src        # SystemVerilog source files
+
 testbench  # Testbench files for simulation
+
 scripts    # Simulation & synthesis scripts
+
 docs       # Design documentation and block diagrams
+
 README.md  # Project descriptionn
 
 ---
